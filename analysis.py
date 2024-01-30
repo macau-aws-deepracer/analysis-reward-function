@@ -1,9 +1,9 @@
 import sys
 # append the folder of your code
-sys.path.append("case/pcms_thomas")
+sys.path.append("case/pcms_example")
 
 # import the code you want to analysis
-import thomas
+import example
 
 # import the function provided by our group 
 import macauaws
@@ -11,4 +11,4 @@ import macauaws
 # we import the simulated parameters to evaluate our reward functions
 params = macauaws.get_param()
 
-rewards = thomas.reward_function(params)
+rewards = (example.reward_function(params))
